@@ -124,3 +124,36 @@ body{
     display: inline;
     margin-bottom: 0;
 }
+#logo{
+    width: 100px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+#cover .icon{
+    height: 150px;
+    position: absolute;
+}
+#cover{
+    position: relative;
+}
+#top{
+    z-index: 5;
+    bottom: 20px;
+    width: 150px;
+}
+#bottom{
+    z-index: 4;
+    bottom: 40px;
+    width: 140px;
+}
+#date a{
+    text-decoration: none;
+}
+#date a:hover{
+    text-decoration: underline;
+}
+#date h3{
+    margin-top: 4px;
+    text-decoration: underline;
+}
